@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="ISO-8859-1">
+<title>Add a Product</title>
+</head>
+<body>
+	<table>
+		<form action="addProductController" method="post">
+			<tr>
+				<td>Product Code</td>
+				<td><input type="text" name="product_code" /></td>
+			</tr>
+			<tr>
+				<td>Name</td>
+				<td><input type="text" name="name" /></td>
+			</tr>
+			<tr>
+				<td>Category</td>
+				<td><Select name="category">
+						<option value="shoes">Shoes</option>
+						<option value="shirt">Shirt</option>
+						<option value="jeans">Jeans</option>
+						<option value="top">Top</option>
+						<option value="tie">Tie</option>
+				</Select></td>
+			</tr>
+			<tr>
+				<td>Price</td>
+				<td><input type="text" name="price" /></td>
+			</tr>
+			<tr>
+				<td>Quantity</td>
+				<td><input type="text" name="quantity" /></td>
+			</tr>
+			<tr>
+				<td><input type="submit" value="Add Product" /></td>
+				<td><input type="reset" value="Reset" /></td>
+			</tr>
+		</form>
+	</table>
+</body>
+</html>
